@@ -33,8 +33,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.one}
         >
-          <h3>5+</h3>
-          <p>Years Experience</p>
+          <h4>Fresher</h4>
+          {/* <p>Years Experience</p> */}
         </motion.div>
         <motion.div
           className="serviceBox2"
@@ -61,7 +61,7 @@ const Services = () => {
           initial={animations.four}
         >
           <AiFillWindows />
-          <span>Desktop Development</span>
+          <span>Data structure and algorithm</span>
         </motion.div>
       </section>
     </div>
