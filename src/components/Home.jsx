@@ -3,7 +3,7 @@ import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/photo.jpeg";
-
+// https://docs.google.com/document/d/1b1aEEFqs0TIx0xo7t24fDQv5zsEzlk2oX4k445UguYY/edit?usp=sharing
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
